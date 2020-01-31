@@ -8,3 +8,13 @@ const part7Answer = document.querySelectorAll("input[name='answer7']");
 const part8Answer = document.querySelectorAll("input[name='answer8']");
 
 const parts = document.querySelectorAll(".question");
+let currentQuestion = 0;
+
+//lägg till BUTTON
+
+const nextButton = document.query
+
+
+function checkAnswer(q) {
+    let points = 0;
+}
