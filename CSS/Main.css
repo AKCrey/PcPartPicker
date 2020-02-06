@@ -8,3 +8,16 @@ header
 body{
     background-color: grey;
 }
+
+.question {
+    display: none;
+}
+
+.question:first-child {
+    display: block;
+}
+
+.next-component {
+    display: block;
+    margin-right: 4em;
+}

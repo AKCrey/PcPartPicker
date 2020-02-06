@@ -7,14 +7,45 @@ const part6Answer = document.querySelectorAll("input[name='answer6']");
 const part7Answer = document.querySelectorAll("input[name='answer7']");
 const part8Answer = document.querySelectorAll("input[name='answer8']");
 
-const parts = document.querySelectorAll(".question");
+const questions = document.querySelectorAll(".question");
 let currentQuestion = 0;
 
-//lägg till BUTTON
 
-const nextButton = document.query
+const nextButton = document.querySelector(".next-component");
+nextButton.addEventListener("click", nextComponent);
+
+const previousButton = document.querySelector(".previous-component");
+previousButton.addEventListener("click", previousComponent)
 
 
-function checkAnswer(q) {
-    let points = 0;
+function nextComponent()    {
+    if (currentQuestion < questions.length - 1)
+    {
+        questions[currentQuestion].style.display = "none";
+        currentQuestion ++;
+        console.log(currentQuestion);
+        questions[currentQuestion].style.display = "block";
+
+        previousButton.disabled = false;
+
+    }
+    else
+    {
+        nextButton.disabled = true;
+    }
+}
+
+function previousComponent()    {
+    
+    if (currentQuestion > 0) {
+        questions[currentQuestion].style.display = "none";
+        currentQuestion --;
+        questions[currentQuestion].style.display = "block";
+
+        nextButton.disabled = false;
+    }
+    else
+    {
+        previousButton.disabled = true;
+    }
 }

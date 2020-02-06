@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
 
     <link rel="stylesheet" type="text/css" href="CSS/Main.css">
+    <script defer src="JS/Main.js"></script>
 
     <title>Main</title>
 
@@ -24,42 +25,42 @@
 
 		<section class="components" id="CPU">
             <h3> CPU </h3>
-            <input type="image" id="CpuIMG" src="IMG/Placeholder.png" alt="CPU" name="CPU"/>
+            <input type="image" id="CpuIMG" src="IMG/White.png" alt="CPU" name="CPU"/>
 		</section>
 
 		<section class="components" id="Mother"> 
             <h3> MotherBoard </h3>
-            <input type="image" id="MotherIMG" src="IMG/Placeholder.png" alt="MotherBoard" name="Mother"/>
+            <input type="image" id="MotherIMG" src="IMG/White.png" alt="MotherBoard" name="Mother"/>
 		</section>
 
 		<section class="components" id="Fan">
             <h3> Fan </h3>
-            <input type="image" id="FanIMG" src="IMG/Placeholder.png" alt="Fan" name="Fan"/>
+            <input type="image" id="FanIMG" src="IMG/White.png" alt="Fan" name="Fan"/>
         </section>
         
         <section class="components" id="RAM"> 
             <h3> RAM </h3>
-            <input type="image" id="RamIMG" src="IMG/Placeholder.png" alt="RAM" name="RAM"/>
+            <input type="image" id="RamIMG" src="IMG/White.png" alt="RAM" name="RAM"/>
         </section>
         
         <section class="components" id="GPU"> 
             <h3> GPU </h3>
-            <input type="image" id="GpuIMG" src="IMG/Placeholder.png" alt="GPU" name="GPU"/>
+            <input type="image" id="GpuIMG" src="IMG/White.png" alt="GPU" name="GPU"/>
         </section>
         
         <section class="components" id="PSU"> 
             <h3> PSU </h3>
-			<input type="image" id="PsuIMG" src="IMG/Placeholder.png" alt="PSU" name="PSU"/>
+			<input type="image" id="PsuIMG" src="IMG/White.png" alt="PSU" name="PSU"/>
         </section>
         
         <section class="components" id="Harddrive"> 
             <h3> HardDrive </h3>
-            <input type="image" id="HarddriveIMG" src="IMG/Placeholder.png" alt="HDD/SSD" name="Harddrive"/>
+            <input type="image" id="HarddriveIMG" src="IMG/White.png" alt="HDD/SSD" name="Harddrive"/>
         </section>
 
         <section class="components" id="Case">
             <h3> Case </h3>
-            <input type="image" id="CaseIMG" src="IMG/Placeholder.png" alt="Case" name="Case"/>
+            <input type="image" id="CaseIMG" src="IMG/White.png" alt="Case" name="Case"/>
 		</section>
         
         <section id="Money"> 
@@ -69,14 +70,22 @@
 
 	</div>
 
+    <div id="componentSwap">
 
+        <p class="button"> <button type="button" class="previous-component" disabled > Previous Component </button> </p>
+
+        <p> <button type="button" class="show-results"> Result </button> </p>
+
+        <p class="button"> <button type="button" class="next-component"> Next Component </button> </p>
+
+    </div>
 
     <h2 id="title"> Component X </h2>
     
 
     <form>
         <fieldset>
-            <div class="componentContainer">
+            <div class="question">
 	
                 <section class="componentSpecific" id="Budget">
                     <h2> PartName </h2>  
@@ -92,161 +101,161 @@
         
                 <section class="componentSpecific" id="Luxury">
                     <h2> PartName </h2>
-                    <input type="image" id="answer1_1" src="IMG/White.png" alt="Luxury" name="answer1" value="3" />
+                    <input type="image" id="answer1_3" src="IMG/White.png" alt="Luxury" name="answer1" value="3" />
                     <h3> Money </h3>
                 </section>
                 
             </div>
             
-            <div class="componentContainer">
+            <div class="question">
 	
                 <section class="componentSpecific" id="Budget">
                     <h2> PartName </h2>  
-                    <input type="image" id="answer1_1" src="IMG/White.png" alt="Budget" name="answer1" value="1" />
+                    <input type="image" id="answer2_1" src="IMG/White.png" alt="Budget" name="answer1" value="1" />
                     <h3> Money </h3>
                 </section>
         
                 <section class="componentSpecific" id="MidTier">
                     <h2> PartName </h2>
-                    <input type="image" id="answer1_2" src="IMG/White.png" alt="Mid Tier" name="answer1" value="2" />
+                    <input type="image" id="answer2_2" src="IMG/White.png" alt="Mid Tier" name="answer1" value="2" />
                     <h3> Money </h3>
                 </section>
         
                 <section class="componentSpecific" id="Luxury">
                     <h2> PartName </h2>
-                    <input type="image" id="answer1_1" src="IMG/White.png" alt="Luxury" name="answer1" value="3" />
+                    <input type="image" id="answer2_3" src="IMG/White.png" alt="Luxury" name="answer1" value="3" />
                     <h3> Money </h3>
                 </section>
                 
             </div>
 
-            <div class="componentContainer">
+            <div class="question">
 	
                 <section class="componentSpecific" id="Budget">
                     <h2> PartName </h2>  
-                    <input type="image" id="answer1_1" src="IMG/White.png" alt="Budget" name="answer1" value="1" />
+                    <input type="image" id="answer3_1" src="IMG/White.png" alt="Budget" name="answer1" value="1" />
                     <h3> Money </h3>
                 </section>
         
                 <section class="componentSpecific" id="MidTier">
                     <h2> PartName </h2>
-                    <input type="image" id="answer1_2" src="IMG/White.png" alt="Mid Tier" name="answer1" value="2" />
+                    <input type="image" id="answer3_2" src="IMG/White.png" alt="Mid Tier" name="answer1" value="2" />
                     <h3> Money </h3>
                 </section>
         
                 <section class="componentSpecific" id="Luxury">
                     <h2> PartName </h2>
-                    <input type="image" id="answer1_1" src="IMG/White.png" alt="Luxury" name="answer1" value="3" />
+                    <input type="image" id="answer3_3" src="IMG/White.png" alt="Luxury" name="answer1" value="3" />
                     <h3> Money </h3>
                 </section>
                 
             </div>
 
-            <div class="componentContainer">
+            <div class="question">
 	
                 <section class="componentSpecific" id="Budget">
                     <h2> PartName </h2>  
-                    <input type="image" id="answer1_1" src="IMG/White.png" alt="Budget" name="answer1" value="1" />
+                    <input type="image" id="answer4_1" src="IMG/White.png" alt="Budget" name="answer1" value="1" />
                     <h3> Money </h3>
                 </section>
         
                 <section class="componentSpecific" id="MidTier">
                     <h2> PartName </h2>
-                    <input type="image" id="answer1_2" src="IMG/White.png" alt="Mid Tier" name="answer1" value="2" />
+                    <input type="image" id="answer4_2" src="IMG/White.png" alt="Mid Tier" name="answer1" value="2" />
                     <h3> Money </h3>
                 </section>
         
                 <section class="componentSpecific" id="Luxury">
                     <h2> PartName </h2>
-                    <input type="image" id="answer1_1" src="IMG/White.png" alt="Luxury" name="answer1" value="3" />
+                    <input type="image" id="answer4_3" src="IMG/White.png" alt="Luxury" name="answer1" value="3" />
                     <h3> Money </h3>
                 </section>
                 
             </div>
 
-            <div class="componentContainer">
+            <div class="question">
 	
                 <section class="componentSpecific" id="Budget">
                     <h2> PartName </h2>  
-                    <input type="image" id="answer1_1" src="IMG/White.png" alt="Budget" name="answer1" value="1" />
+                    <input type="image" id="answer5_1" src="IMG/White.png" alt="Budget" name="answer1" value="1" />
                     <h3> Money </h3>
                 </section>
         
                 <section class="componentSpecific" id="MidTier">
                     <h2> PartName </h2>
-                    <input type="image" id="answer1_2" src="IMG/White.png" alt="Mid Tier" name="answer1" value="2" />
+                    <input type="image" id="answer5_2" src="IMG/White.png" alt="Mid Tier" name="answer1" value="2" />
                     <h3> Money </h3>
                 </section>
         
                 <section class="componentSpecific" id="Luxury">
                     <h2> PartName </h2>
-                    <input type="image" id="answer1_1" src="IMG/White.png" alt="Luxury" name="answer1" value="3" />
+                    <input type="image" id="answer5_3" src="IMG/White.png" alt="Luxury" name="answer1" value="3" />
                     <h3> Money </h3>
                 </section>
                 
             </div>
 
-            <div class="componentContainer">
+            <div class="question">
 	
                 <section class="componentSpecific" id="Budget">
                     <h2> PartName </h2>  
-                    <input type="image" id="answer1_1" src="IMG/White.png" alt="Budget" name="answer1" value="1" />
+                    <input type="image" id="answer6_1" src="IMG/White.png" alt="Budget" name="answer1" value="1" />
                     <h3> Money </h3>
                 </section>
         
                 <section class="componentSpecific" id="MidTier">
                     <h2> PartName </h2>
-                    <input type="image" id="answer1_2" src="IMG/White.png" alt="Mid Tier" name="answer1" value="2" />
+                    <input type="image" id="answer6_2" src="IMG/White.png" alt="Mid Tier" name="answer1" value="2" />
                     <h3> Money </h3>
                 </section>
         
                 <section class="componentSpecific" id="Luxury">
                     <h2> PartName </h2>
-                    <input type="image" id="answer1_1" src="IMG/White.png" alt="Luxury" name="answer1" value="3" />
+                    <input type="image" id="answer6_3" src="IMG/White.png" alt="Luxury" name="answer1" value="3" />
                     <h3> Money </h3>
                 </section>
                 
             </div>
 
-            <div class="componentContainer">
+            <div class="question">
 	
                 <section class="componentSpecific" id="Budget">
                     <h2> PartName </h2>  
-                    <input type="image" id="answer1_1" src="IMG/White.png" alt="Budget" name="answer1" value="1" />
+                    <input type="image" id="answer7_1" src="IMG/White.png" alt="Budget" name="answer1" value="1" />
                     <h3> Money </h3>
                 </section>
         
                 <section class="componentSpecific" id="MidTier">
                     <h2> PartName </h2>
-                    <input type="image" id="answer1_2" src="IMG/White.png" alt="Mid Tier" name="answer1" value="2" />
+                    <input type="image" id="answer7_2" src="IMG/White.png" alt="Mid Tier" name="answer1" value="2" />
                     <h3> Money </h3>
                 </section>
         
                 <section class="componentSpecific" id="Luxury">
                     <h2> PartName </h2>
-                    <input type="image" id="answer1_1" src="IMG/White.png" alt="Luxury" name="answer1" value="3" />
+                    <input type="image" id="answer7_3" src="IMG/White.png" alt="Luxury" name="answer1" value="3" />
                     <h3> Money </h3>
                 </section>
                 
             </div>
 
-            <div class="componentContainer">
+            <div class="question">
 	
                 <section class="componentSpecific" id="Budget">
                     <h2> PartName </h2>  
-                    <input type="image" id="answer1_1" src="IMG/White.png" alt="Budget" name="answer1" value="1" />
+                    <input type="image" id="answer8_1" src="IMG/White.png" alt="Budget" name="answer1" value="1" />
                     <h3> Money </h3>
                 </section>
         
                 <section class="componentSpecific" id="MidTier">
                     <h2> PartName </h2>
-                    <input type="image" id="answer1_2" src="IMG/White.png" alt="Mid Tier" name="answer1" value="2" />
+                    <input type="image" id="answer8_2" src="IMG/White.png" alt="Mid Tier" name="answer1" value="2" />
                     <h3> Money </h3>
                 </section>
         
                 <section class="componentSpecific" id="Luxury">
                     <h2> PartName </h2>
-                    <input type="image" id="answer1_1" src="IMG/White.png" alt="Luxury" name="answer1" value="3" />
+                    <input type="image" id="answer8_3" src="IMG/White.png" alt="Luxury" name="answer1" value="3" />
                     <h3> Money </h3>
                 </section>
                 
