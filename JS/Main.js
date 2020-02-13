@@ -1,4 +1,4 @@
-let pictures []
+let pictures = [];
 
 const part1Answer = document.querySelectorAll("input[name='answer1']");
 const part2Answer = document.querySelectorAll("input[name='answer2']");

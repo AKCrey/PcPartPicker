@@ -6,10 +6,39 @@ header
 }
 
 body{
-    background-color: grey;
+    background-color:#272727;
+    color:#eeede6;
 }
 
-.question {
+#componentsContainer
+{
+    display:grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.components{
+    font-size: 2em;
+}
+
+#title{
+    text-align: center;
+    font-size: 6em;
+}
+
+
+/*fieldset{
+    border-style: none;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}  */
+
+h3{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.question
+{
     display: none;
 }
 
