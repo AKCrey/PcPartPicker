@@ -43,6 +43,9 @@ nextButton.addEventListener("click", nextComponent);
 const previousButton = document.querySelector(".previous-component");
 previousButton.addEventListener("click", previousComponent)
 
+function hideAllQuestions () {
+    
+}
 
 function nextComponent()    {
     if (currentQuestion < questions.length - 1)

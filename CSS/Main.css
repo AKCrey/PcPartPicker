@@ -1,14 +1,28 @@
+body{
+    background-color:#272727;
+    color:#eeede6;
+    font-family: 'Rajdhani', sans-serif;
+}
+
 header
 {
     text-align: center;
     display: grid;
+    font-size: 2em;
     grid-template-columns: repeat(3, 1fr);
+    border-bottom-color: #3a0909;
+    border-bottom-style: solid;
+    border-radius: 1em;
+    border-width: 0.05em;
+    padding-bottom: 0.2em;
 }
 
-body{
-    background-color:#272727;
+a
+{
     color:#eeede6;
+    text-decoration: none;
 }
+
 
 #componentsContainer
 {
@@ -17,7 +31,8 @@ body{
 }
 
 .components{
-    font-size: 2em;
+    margin-top: 5em;
+    font-size: 1.5em;
 }
 
 #title{
@@ -26,11 +41,9 @@ body{
 }
 
 
-/*fieldset{
-    border-style: none;
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}  */
+.componentSpecific{
+    text-align: center;
+}
 
 h3{
     font-size: 1.5em;
@@ -42,8 +55,10 @@ h3{
     display: none;
 }
 
-.question:first-child {
-    display: block;
+.question:first-child 
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .next-component {
