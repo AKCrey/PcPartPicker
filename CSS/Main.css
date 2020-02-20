@@ -1,5 +1,5 @@
 body{
-    background-color:#272727;
+    background-color:#141414;
     color:#eeede6;
     font-family: 'Rajdhani', sans-serif;
 }
@@ -10,7 +10,7 @@ header
     display: grid;
     font-size: 2em;
     grid-template-columns: repeat(3, 1fr);
-    border-bottom-color: #3a0909;
+    border-bottom-color: #460909;
     border-bottom-style: solid;
     border-radius: 1em;
     border-width: 0.05em;
@@ -23,6 +23,13 @@ a
     text-decoration: none;
 }
 
+h1
+{
+    text-align: center;
+    font-weight: bold;
+    margin: 2em;
+    font-size: 8em;
+}
 
 #componentsContainer
 {
