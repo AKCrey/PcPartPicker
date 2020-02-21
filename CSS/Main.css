@@ -1,4 +1,5 @@
-body{
+body
+{
     background-color:#141414;
     color:#eeede6;
     font-family: 'Rajdhani', sans-serif;
@@ -37,18 +38,56 @@ h1
     grid-template-columns: repeat(8, 1fr);
 }
 
-.components{
+.components
+{
     margin-top: 5em;
     font-size: 1.5em;
 }
 
-#title{
+#title
+{
+    margin-top: 1.5em;
     text-align: center;
-    font-size: 6em;
+    font-size: 5em;
 }
 
 
-.componentSpecific{
+button
+{
+    font-size: 1.5em;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+
+#next-component 
+{
+    display: block;
+    margin-left: 3em;
+    margin-right: 20em;
+}
+
+#previous-component
+{
+    margin-right: 3em;
+    margin-left: 20em;
+}
+
+button:disabled 
+{
+    background-color: darkgray;
+}
+
+#componentSwap
+{
+    margin-top: 5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 2em;
+}
+
+.componentSpecific
+{
     text-align: center;
 }
 
@@ -66,9 +105,4 @@ h3{
 {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-}
-
-.next-component {
-    display: block;
-    margin-right: 4em;
 }

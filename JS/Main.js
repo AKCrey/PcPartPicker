@@ -37,10 +37,10 @@ const questions = document.querySelectorAll(".question");
 let currentQuestion = 0;
 
 
-const nextButton = document.querySelector(".next-component");
+const nextButton = document.querySelector("#next-component");
 nextButton.addEventListener("click", nextComponent);
 
-const previousButton = document.querySelector(".previous-component");
+const previousButton = document.querySelector("#previous-component");
 previousButton.addEventListener("click", previousComponent)
 
 function hideAllQuestions () {
