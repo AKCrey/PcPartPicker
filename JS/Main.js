@@ -43,10 +43,6 @@ nextButton.addEventListener("click", nextComponent);
 const previousButton = document.querySelector("#previous-component");
 previousButton.addEventListener("click", previousComponent)
 
-function hideAllQuestions () {
-    
-}
-
 function nextComponent()    {
     if (currentQuestion < questions.length - 1)
     {
@@ -64,7 +60,8 @@ function nextComponent()    {
     }
 }
 
-function previousComponent()    {
+function previousComponent()   
+ {
     
     if (currentQuestion > 0) {
         questions[currentQuestion].style.display = "none";
@@ -77,4 +74,9 @@ function previousComponent()    {
     {
         previousButton.disabled = true;
     }
+}
+
+function nextTitle()
+{
+
 }
