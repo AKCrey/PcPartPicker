@@ -14,7 +14,7 @@ header
     border-bottom-color: #460909;
     border-bottom-style: solid;
     border-radius: 1em;
-    border-width: 0.05em;
+    border-width: 0.1em;
     padding-bottom: 0.2em;
 }
 
@@ -36,12 +36,31 @@ h1
 {
     display:grid;
     grid-template-columns: repeat(8, 1fr);
+    grid-column-gap: 1em;
 }
 
 .components
 {
     margin-top: 5em;
     font-size: 1.5em;
+}
+
+h3{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+input
+{
+    height: 25em;
+    width: 25em;
+}
+
+.componentIMG
+{
+    height: 10em;
+    width: 10em;
+    margin-left: 1.5em;
 }
 
 h2
@@ -75,7 +94,7 @@ button
 #previous-component
 {
     margin-right: 3em;
-    margin-left: 20em;
+    margin-left: 15.3em;
 }
 
 button:disabled 
@@ -85,10 +104,10 @@ button:disabled
 
 #componentSwap
 {
-    margin-top: 5em;
+    margin-top: 2em;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 .componentSpecific
@@ -96,10 +115,7 @@ button:disabled
     text-align: center;
 }
 
-h3{
-    font-size: 1.5em;
-    text-align: center;
-}
+
 
 table
 {
@@ -110,7 +126,7 @@ table
 
 td
 {
-    padding-left: 12.75em;
+    padding-left: 3.3em;
 }
 
 .question
@@ -121,4 +137,37 @@ td
 .question:first-child 
 {
     display: block;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px)
+{
+    body
+    {
+        background-color: red;
+    }
+    input
+    {
+        height: 5em;
+        width: 5em;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px)
+{
+    body
+    {
+        background-color: blue;
+    }
+    input
+    {
+        height: 15em;
+        width: 15em;
+    }
+}
+}
+@media only screen and (min-width: 1024px) and (max-width: 1440px)
+{
+    body
+    {
+        background-color: black;
+    }
 }

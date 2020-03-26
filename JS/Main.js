@@ -37,11 +37,16 @@ const questions = document.querySelectorAll(".question");
 let currentQuestion = 0;
 
 
+
 const nextButton = document.querySelector("#next-component");
-nextButton.addEventListener("click", nextComponent);
+nextButton.addEventListener("click", nextComponent, nextTitle);
 
 const previousButton = document.querySelector("#previous-component");
 previousButton.addEventListener("click", previousComponent)
+
+const title = document.querySelector("#title");
+
+let name = "";
 
 function nextComponent()    {
     if (currentQuestion < questions.length - 1)
@@ -79,4 +84,42 @@ function previousComponent()
 function nextTitle()
 {
 
+    currentQuestion ++;
+
+    console.log(currentQuestion);
+
+    if (currentQuestion === 1) 
+    {
+        name = "RAM"
+    }
+    else if (currentQuestion === 2) 
+    {
+        name = "PCB"
+    }
+    else if (currentQuestion === 3) 
+    {
+        name = "Fan"
+    }
+    else if (currentQuestion === 4) 
+    {
+        name = "RAM"
+    }
+    else if (currentQuestion === 5) 
+    {
+        name = "GPU"
+    }
+    else if (currentQuestion === 6) 
+    {
+        name = "PSU"
+    }
+    else if (currentQuestion === 7) 
+    {
+        name = "HardDrive"
+    }
+    else if (currentQuestion === 8) 
+    {
+        name = "Case"
+    }
+
+    title.textContent = name;
 }
