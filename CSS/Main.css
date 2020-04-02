@@ -152,7 +152,7 @@ td
     }
     h3
     {
-        font-size: 1em;
+        font-size: 1.25em;
     }
     .componentIMG
     {
@@ -177,18 +177,96 @@ td
         margin-top: 10em;
         margin-bottom: 5em;
     }
+    #money
+    {
+        margin-top: 4em;
+    }
+    #total
+    {
+        font-size: 2em;
+    }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1439px)
 {
-    body
+    h1
     {
-        background-color: red;
+        margin-top: 1.55em;
+        margin-bottom: 0.50em;
+    }
+    input
+    {
+        height: 15em;
+        width: 15em;
+    }
+    h3
+    {
+        font-size: 1.25em;
+    }
+    .componentIMG
+    {
+        height: 6em;
+        width: 6em;   
+        margin-left: 1.1em;     
+    }
+    #previous-component
+    {
+        margin-left: 5em;
+    }
+    table
+    {
+        margin-top: 3em;
+    }
+    td
+    {
+        padding-left: 3.2em;
+    }
+    #componentSwap
+    {
+        margin-top: 5em;
+        margin-bottom: 5em;
     }
 }
 @media only screen and (min-width: 1440px)
 {
-    body
+    h1
     {
-        background-color:blue;
+        margin-top: 1.8em;
+        margin-bottom: 0.85em;
+        font-size: 10em;
+    }
+    h3
+    {
+        font-size: 1.5em;
+    }
+    .componentIMG
+    {
+        height: 10em;
+        width: 10em;  
+        margin-left: 1.1em;     
+    }
+    #previous-component
+    {
+        margin-left: 14em;
+    }
+    table
+    {
+        margin-top: 3em;
+    }
+    td
+    {
+        padding-left: 2.4em;
+    }
+    #componentSwap
+    {
+        margin-top: 10em;
+        margin-bottom: 5em;
+    }
+    #money
+    {
+        margin-top: 1em;
+    }
+    #total
+    {
+        font-size: 2em;
     }
 }
