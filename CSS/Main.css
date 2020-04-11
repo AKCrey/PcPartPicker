@@ -66,6 +66,7 @@ input
 h2
 {
     text-align: center;
+    font-size: 2em;
 }
 
 #title
@@ -255,6 +256,11 @@ td
     td
     {
         padding-left: 2.4em;
+    }
+    input
+    {
+        height: 25em;
+        width: 25em;
     }
     #componentSwap
     {

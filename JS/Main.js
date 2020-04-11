@@ -90,35 +90,35 @@ function nextTitle()
 
     if (currentQuestion === 1) 
     {
-        name = "RAM"
+        name = "RAM";
     }
     else if (currentQuestion === 2) 
     {
-        name = "PCB"
+        name = "PCB";
     }
     else if (currentQuestion === 3) 
     {
-        name = "Fan"
+        name = "Fan";
     }
     else if (currentQuestion === 4) 
     {
-        name = "RAM"
+        name = "RAM";
     }
     else if (currentQuestion === 5) 
     {
-        name = "GPU"
+        name = "GPU";
     }
     else if (currentQuestion === 6) 
     {
-        name = "PSU"
+        name = "PSU";
     }
     else if (currentQuestion === 7) 
     {
-        name = "HardDrive"
+        name = "HardDrive";
     }
     else if (currentQuestion === 8) 
     {
-        name = "Case"
+        name = "Case";
     }
 
     title.textContent = name;
