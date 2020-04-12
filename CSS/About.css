@@ -46,6 +46,8 @@ img
     border-style: solid;
     border-width: 0.1em;
     border-radius: 1em;
+    width: 255px;
+    height: 255px;
 }
 
 .ImgLeft

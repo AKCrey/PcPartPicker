@@ -47,6 +47,8 @@ img
     border-style: solid;
     border-width: 0.1em;
     border-radius: 1em;
+    height: 225px;
+    width: 225px;
 }
 
 div
