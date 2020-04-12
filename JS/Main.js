@@ -81,7 +81,7 @@ function previousComponent()
     }
 }
 
-function nextTitle()
+function nextTitle() /*Detta fungerar inte :( */
 {
 
     currentQuestion ++;
