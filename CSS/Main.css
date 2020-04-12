@@ -11,7 +11,7 @@ header
     display: grid;
     font-size: 2em;
     grid-template-columns: repeat(3, 1fr);
-    border-bottom-color: rgb(247, 14, 14);
+    border-bottom-color: #570b0b;
     border-bottom-style: solid;
     border-radius: 1em;
     border-width: 0.1em;
